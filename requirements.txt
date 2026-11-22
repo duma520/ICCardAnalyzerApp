@@ -1,0 +1,12 @@
+[requirements.txt]
+pyqt6==6.4.0
+numpy>=1.22.0
+pyqtgraph>=0.12.0
+
+# Unix/Linux 专用
+pycuda>=2021.1; sys_platform != 'win32'
+pyopengl>=3.1.0; sys_platform != 'win32'
+
+# TensorFlow (Windows 推荐使用 tensorflow-cpu)
+tensorflow>=2.0.0; sys_platform != 'win32'
+tensorflow-cpu>=2.0.0; sys_platform == 'win32'
