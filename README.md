@@ -173,4 +173,4 @@ dump\0016574814-1576855902 5E E9 FC 5D 加密2 原卡数据.dump
 
 ## 12. 许可
 
-MIT License，详见仓库根目录 LICENSE。
+AGPL-3.0，详见仓库根目录 LICENSE。
