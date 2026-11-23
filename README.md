@@ -1,11 +1,8 @@
 # ICCardAnalyzerApp （见源码内 VERSION 常量）
 
-> **一句话**：ICCardAnalyzerApp —— 一个用 Python 写的 Windows 桌面程序，
+> **一句话**：IC 卡数据分析系统：读入 IC 卡 dump 文件，做格式校验与特征提取（信息熵、滚动码预测、密钥结构分析），把扇区与密钥整理成可读报告并导出 HTML。分析门禁卡、公交卡这类 M1 卡的数据结构时用。
+>
 > 主程序为 `ICCardAnalyzerApp.py`，界面技术栈 tkinter（Python 自带 GUI，无需额外安装）。
->
-> **适合谁**：想直接用现成工具、不想自己写代码的 Windows 用户。
->
-> **解决什么问题**：把这件事做成开箱即用的程序 —— 下载解压、装上依赖、双击就能跑。
 
 ---
 
